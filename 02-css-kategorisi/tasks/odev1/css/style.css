@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav{
+    background-color: rgb(64, 144, 175);
+    font-size: 20px;
+}
+a{
+    
+    color:wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+h1{
+    font-size: 50px;
+}
+ul{
+    font-size: smaller;
+}
+.inside{
+    list-style-position: inside
+}
+
+director{
+    background-color: brown;
+    
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+  }
+
+h5{
+    color: aliceblue;
+}  
