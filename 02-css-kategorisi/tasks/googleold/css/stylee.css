@@ -1,0 +1,180 @@
+
+
+.content {
+    width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* div'e content class'ını vererek google resmini ortaladım. Bunun için margin'den yararlandım */
+
+
+.grikutu {
+    background-color: rgb(238, 238, 238);
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* Article'e grikutu class'ını vererek google altında gri bir arama kutusu oluşturdum ve ortaladım. Bunun için margin'den yararlandım */
+
+
+.deneme {
+    padding-left: 4%;
+}
+
+
+input,
+label {
+    height: 15px;
+    width: 330px;
+    margin-left: 700px;
+    margin-right: 650px;
+} 
+
+/* alttaki küçük kutu için açtığım id lerle üstteki büyük arama çubuğu karışmasın diye idleri yazarak ekledim ikinci küçük kutuyu  */
+
+#getgoogle input, 
+#getgoogle label 
+{
+    height: 15px;
+    width: 170px;
+    margin-left: 270px;
+}
+
+.paylasbutonu {
+   margin-left: 300px;
+}
+
+
+/* input label ile "search" yazımı yazıp altına arama kutusu oluşturdum ve boyutlarını ayarladım aynı zamanda da ortalamaya çalıştım */
+
+/* Not: Ayrıca "Google Search" ve "I'm feeling Lucky" butonlarına da gerçekten arama linklerini "a href" ile ekledim  */
+
+.kutu1 {
+    height: 20px;
+    width: 75%;
+    /* margin-right: 30%; */
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0px 0px 0px 735px;
+    
+    /* kutu1 clası verdiğim "search kutusu" için margin koyarak birinci kutuyu en sağa kadar getirdim ve padding-left ve right ile de kutu içindeki yazıyı tam ortaladım ve height-width ile de kutu boyutlarını ayarladım */
+
+
+}
+
+.kutu2 {
+    height: 20px;
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+
+/* height: 20px ile kutunun yüksekliğini ayarladım. Width ile de kutunun genişliğini ayarladım. padding-left ile de kutunun içindeki yazıyı sol tarafa ayarladım. */
+
+
+
+.container {
+width: 9%;
+    float: left;
+}
+
+/* container classı içinde width: %9 ve float:left vererek  "search ve lucky" kutularını yan yana koymuş oldum. */
+
+
+
+.birincikutu {
+    width: 600px;
+    height: 80px;
+    background-color:#7EE5DA ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.birincikutuyazi {
+    text-decoration: underline;
+    table-layout: auto;
+    width: 100%;
+}
+
+
+/* birincikutu adlı class eklediğim bir div oluşturdum. Toplam 3 adet kutu olduğu için 3 adet class oluşturdum, aşağıda gördüğünüz üzere. Ve sonra width ve height ile yükseklik ve genişlik ayarladım. Background colorlarını ayarladım. Kutular yanyana gelmesi için float: left kodunu yazdım. Ve daha sonra aralarındaki boşluklar için margin'i kullandım. Ve arkasından kutuların içine table ekledim ve table içinde yazanları center ile ortaladım. */
+
+
+.ikincikutuyazi {
+    text-decoration: underline;
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.ikincikutu {
+    width: 370px;
+    height: 80px;
+    background-color:#70CCC2 ;
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    
+}
+
+
+/* birincikutu adlı class notunda eklediklerimi birebir burada da ve üçüncükutuda da yaptım */
+
+
+
+.tiklamarengi:hover {
+    color: red;
+}
+
+/* tiklamarengi adlı bir class ekledim, butonu olan linklere. Ve arkasından hover kodunu ekledim ve bu sayede linke geldiğinize zaman link rengi kırmızıya dönüyor. Gereksiz gibi gözükse de estetik oldu bence hem de öğrendiklerimi pratik etmek açısındna yararlı oldu */
+
+
+
+.ucuncukutu {
+    width: 728px;
+    height: 80px;
+    background-color:#62B3AA;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.ucuncukutuyazi {
+    /* table-layout: auto; */
+    font-size: 0.8em;
+    margin-left: 300px;
+    /* margin-left: 5%; */
+    margin-top: -5px;
+
+}
+
+
+.uckututoplam {
+    height: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* aşağıdaki 3 adet kutu için birer class açtım ve height ile yüksekliği ayarladım, width ile genişliklerini ayarladım, margin-top ile yukarıdaki kutu ile aralarına boşluk koydum, margin-left-right ile kendi aralarında boşluk koydum, background color ile arka plan renklerini değiştirdim, float:left ile de 3 adet kutuyu yan yana dizdim. */
+
+.footeryazisi {
+        font-size: 0.8em;
+        margin-left: 750px;
+        margin-top: 5%;
+
+}
+
+
+.footeryazisi2 {
+    font-size: 0.8em;
+    margin-left: 750px;
+    margin-top: 1%;
+
+}
